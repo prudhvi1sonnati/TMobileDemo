@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TMobileDemo
 //
-//  Created by Darshit Vadodaria on 06/12/19.
+//  Created by Prudhvi Sonnati on 12/06/19.
 //  Copyright © 2019 Prudhvi Sonnati. All rights reserved.
 //
 

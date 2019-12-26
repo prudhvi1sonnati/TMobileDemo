@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - Kingfisher (5.11.0):
+    - Kingfisher/Core (= 5.11.0)
+  - Kingfisher/Core (5.11.0)
+  - KVNProgress (2.3.5)
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - Kingfisher (~> 5.0)
+  - KVNProgress
+  - ReachabilitySwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - KVNProgress
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  Kingfisher: 4569606189149e19c7d9439f47e885d0679b7a90
+  KVNProgress: d7046cce142f1aeb740db39dc3cacfe910fac354
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: d4c2365ba5fad8f38d064b6f0e749a679589e00f
+
+COCOAPODS: 1.8.4

@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2E702ADA639652190F7145C /* Pods_TMobileDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA21014CD2535A7160546B6 /* Pods_TMobileDemo.framework */; };
 		BB44E081239A55B00010DA3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E080239A55B00010DA3F /* AppDelegate.swift */; };
-		BB44E083239A55B00010DA3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E082239A55B00010DA3F /* ViewController.swift */; };
 		BB44E086239A55B00010DA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB44E084239A55B00010DA3F /* Main.storyboard */; };
 		BB44E089239A55B00010DA3F /* TMobileDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB44E087239A55B00010DA3F /* TMobileDemo.xcdatamodeld */; };
 		BB44E08B239A55B20010DA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44E08A239A55B20010DA3F /* Assets.xcassets */; };
 		BB44E08E239A55B20010DA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB44E08C239A55B20010DA3F /* LaunchScreen.storyboard */; };
+		BB44E097239A58020010DA3F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E096239A58020010DA3F /* Constant.swift */; };
+		BB44E099239A59120010DA3F /* GithubLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E098239A59120010DA3F /* GithubLoginHelper.swift */; };
+		BB98C1DC239A6DCF00592EA7 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1DB239A6DCF00592EA7 /* NetworkHelper.swift */; };
+		BB98C1DE239A702D00592EA7 /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1DD239A702D00592EA7 /* UserDetailModel.swift */; };
+		BB98C1E0239A707000592EA7 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1DF239A707000592EA7 /* RepoModel.swift */; };
+		BB98C1E2239A713100592EA7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1E1239A713100592EA7 /* UserModel.swift */; };
+		BB98C1E4239A758D00592EA7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1E3239A758D00592EA7 /* APIManager.swift */; };
+		BB98C1E6239A765100592EA7 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1E5239A765100592EA7 /* CustomError.swift */; };
+		BB98C1EB239A9E8A00592EA7 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1EA239A9E8A00592EA7 /* Dynamic.swift */; };
+		BB98C1EE239AACBA00592EA7 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1ED239AACBA00592EA7 /* UserListTableViewCell.swift */; };
+		BB98C1F4239AF39000592EA7 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1F3239AF39000592EA7 /* DetailTableViewCell.swift */; };
+		BB98C1FA239B019800592EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1F8239B019700592EA7 /* ViewController.swift */; };
+		BB98C1FB239B019800592EA7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1F9239B019700592EA7 /* DetailVC.swift */; };
+		BB98C200239B01C400592EA7 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1FE239B01C400592EA7 /* UserListViewModel.swift */; };
+		BB98C201239B01C400592EA7 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98C1FF239B01C400592EA7 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08994BD7E90728B6CE61EA72 /* Pods-TMobileDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMobileDemo/Pods-TMobileDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1DA21014CD2535A7160546B6 /* Pods_TMobileDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMobileDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11290155017DCE6C6DF7124 /* Pods-TMobileDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMobileDemo/Pods-TMobileDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BB44E07D239A55B00010DA3F /* TMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB44E080239A55B00010DA3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB44E082239A55B00010DA3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB44E085239A55B00010DA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB44E088239A55B00010DA3F /* TMobileDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TMobileDemo.xcdatamodel; sourceTree = "<group>"; };
 		BB44E08A239A55B20010DA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB44E08D239A55B20010DA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB44E08F239A55B20010DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB44E096239A58020010DA3F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BB44E098239A59120010DA3F /* GithubLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubLoginHelper.swift; sourceTree = "<group>"; };
+		BB98C1DB239A6DCF00592EA7 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		BB98C1DD239A702D00592EA7 /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		BB98C1DF239A707000592EA7 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		BB98C1E1239A713100592EA7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BB98C1E3239A758D00592EA7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BB98C1E5239A765100592EA7 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		BB98C1EA239A9E8A00592EA7 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		BB98C1ED239AACBA00592EA7 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		BB98C1F3239AF39000592EA7 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		BB98C1F8239B019700592EA7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB98C1F9239B019700592EA7 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		BB98C1FE239B01C400592EA7 /* UserListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		BB98C1FF239B01C400592EA7 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E702ADA639652190F7145C /* Pods_TMobileDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525988DDE20F19DF92664E55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08994BD7E90728B6CE61EA72 /* Pods-TMobileDemo.debug.xcconfig */,
+				B11290155017DCE6C6DF7124 /* Pods-TMobileDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB44E074239A55B00010DA3F = {
 			isa = PBXGroup;
 			children = (
 				BB44E07F239A55B00010DA3F /* TMobileDemo */,
 				BB44E07E239A55B00010DA3F /* Products */,
+				525988DDE20F19DF92664E55 /* Pods */,
+				FCD1D168E51DDA78B332E40E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +100,12 @@
 		BB44E07F239A55B00010DA3F /* TMobileDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BB44E0AB239A5FA50010DA3F /* Model */,
+				BB44E095239A57E90010DA3F /* Helper */,
+				BB98C1EC239AAC8D00592EA7 /* Views */,
+				BB98C1F7239B019700592EA7 /* ViewController */,
+				BB98C1FD239B01C400592EA7 /* ViewModel */,
 				BB44E080239A55B00010DA3F /* AppDelegate.swift */,
-				BB44E082239A55B00010DA3F /* ViewController.swift */,
 				BB44E084239A55B00010DA3F /* Main.storyboard */,
 				BB44E08A239A55B20010DA3F /* Assets.xcassets */,
 				BB44E08C239A55B20010DA3F /* LaunchScreen.storyboard */,
@@ -67,6 +115,72 @@
 			path = TMobileDemo;
 			sourceTree = "<group>";
 		};
+		BB44E095239A57E90010DA3F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BB44E096239A58020010DA3F /* Constant.swift */,
+				BB44E098239A59120010DA3F /* GithubLoginHelper.swift */,
+				BB98C1EA239A9E8A00592EA7 /* Dynamic.swift */,
+				BB98C1E7239A771800592EA7 /* NetworkManager */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BB44E0AB239A5FA50010DA3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB98C1DD239A702D00592EA7 /* UserDetailModel.swift */,
+				BB98C1DF239A707000592EA7 /* RepoModel.swift */,
+				BB98C1E1239A713100592EA7 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB98C1E7239A771800592EA7 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB98C1DB239A6DCF00592EA7 /* NetworkHelper.swift */,
+				BB98C1E3239A758D00592EA7 /* APIManager.swift */,
+				BB98C1E5239A765100592EA7 /* CustomError.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		BB98C1EC239AAC8D00592EA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB98C1ED239AACBA00592EA7 /* UserListTableViewCell.swift */,
+				BB98C1F3239AF39000592EA7 /* DetailTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB98C1F7239B019700592EA7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB98C1F8239B019700592EA7 /* ViewController.swift */,
+				BB98C1F9239B019700592EA7 /* DetailVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB98C1FD239B01C400592EA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB98C1FE239B01C400592EA7 /* UserListViewModel.swift */,
+				BB98C1FF239B01C400592EA7 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCD1D168E51DDA78B332E40E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DA21014CD2535A7160546B6 /* Pods_TMobileDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB44E092239A55B20010DA3F /* Build configuration list for PBXNativeTarget "TMobileDemo" */;
 			buildPhases = (
+				26D9493AE75AACC04A0A5B79 /* [CP] Check Pods Manifest.lock */,
 				BB44E079239A55B00010DA3F /* Sources */,
 				BB44E07A239A55B00010DA3F /* Frameworks */,
 				BB44E07B239A55B00010DA3F /* Resources */,
+				67AEE03851C80C0B92AEE6C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +249,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26D9493AE75AACC04A0A5B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMobileDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67AEE03851C80C0B92AEE6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMobileDemo/Pods-TMobileDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMobileDemo/Pods-TMobileDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMobileDemo/Pods-TMobileDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB44E079239A55B00010DA3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB44E083239A55B00010DA3F /* ViewController.swift in Sources */,
+				BB98C1EB239A9E8A00592EA7 /* Dynamic.swift in Sources */,
+				BB98C1F4239AF39000592EA7 /* DetailTableViewCell.swift in Sources */,
+				BB98C1DC239A6DCF00592EA7 /* NetworkHelper.swift in Sources */,
+				BB98C1FB239B019800592EA7 /* DetailVC.swift in Sources */,
+				BB98C1DE239A702D00592EA7 /* UserDetailModel.swift in Sources */,
+				BB98C1E4239A758D00592EA7 /* APIManager.swift in Sources */,
+				BB98C201239B01C400592EA7 /* DetailViewModel.swift in Sources */,
+				BB98C1EE239AACBA00592EA7 /* UserListTableViewCell.swift in Sources */,
 				BB44E089239A55B00010DA3F /* TMobileDemo.xcdatamodeld in Sources */,
+				BB98C1E0239A707000592EA7 /* RepoModel.swift in Sources */,
 				BB44E081239A55B00010DA3F /* AppDelegate.swift in Sources */,
+				BB98C1FA239B019800592EA7 /* ViewController.swift in Sources */,
+				BB98C1E6239A765100592EA7 /* CustomError.swift in Sources */,
+				BB98C200239B01C400592EA7 /* UserListViewModel.swift in Sources */,
+				BB44E097239A58020010DA3F /* Constant.swift in Sources */,
+				BB98C1E2239A713100592EA7 /* UserModel.swift in Sources */,
+				BB44E099239A59120010DA3F /* GithubLoginHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +456,12 @@
 		};
 		BB44E093239A55B20010DA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08994BD7E90728B6CE61EA72 /* Pods-TMobileDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TMobileDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,10 +475,12 @@
 		};
 		BB44E094239A55B20010DA3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11290155017DCE6C6DF7124 /* Pods-TMobileDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TMobileDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
